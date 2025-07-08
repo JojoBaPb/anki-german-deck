@@ -57,3 +57,12 @@ anki-german-deck/
 This project is MIT-licensed. You're free to modify and distribute it.
 
 Built with ❤️ by JojoBaPb — inspired by the Fluent Forever method.
+
+---
+
+## 📦 `requirements.txt`
+
+```txt
+gtts
+genanki
+tqdm
