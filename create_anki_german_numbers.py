@@ -1,5 +1,6 @@
 import genanki
 from gtts import gTTS
+from tqdm import tqdm
 import os
 
 # Folder for generated audio files
@@ -65,7 +66,7 @@ deck = genanki.Deck(
 )
 
 # Generate TTS and add notes
-for number, word in german_numbers:
+for number, word in tqdm(german_numbers, desc="Generating cards"):
     filename = f'{word}.mp3'
     filepath = os.path.join(AUDIO_DIR, filename)
 
