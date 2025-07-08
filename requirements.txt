@@ -1,0 +1,3 @@
+gtts
+genanki
+tqdm
