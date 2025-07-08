@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
     Clone the repository:
 
-git clone git@github.com:yourusername/anki-german-deck.git
+git clone git@github.com:JojoBaPb/anki-german-deck.git
 cd anki-german-deck
 
     Generate the deck:
