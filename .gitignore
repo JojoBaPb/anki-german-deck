@@ -134,6 +134,14 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Ignore Anki media and output
+*.apkg
+german_audio/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
 # Environments
 .env
 .envrc
