@@ -26,3 +26,34 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 
+🛠️ How to Use
+
+    Clone the repository:
+
+git clone git@github.com:yourusername/anki-german-deck.git
+cd anki-german-deck
+
+    Generate the deck:
+
+python create_anki_german_numbers.py
+
+    The output file german_numbers_tts.apkg will be created.
+
+        Transfer it to your PC or Android device
+
+        Import it into Anki or AnkiDroid
+
+📦 File Structure
+
+anki-german-deck/
+├── create_anki_german_numbers.py   # Main deck generator
+├── german_audio/                   # Auto-generated TTS audio files (ignored in Git)
+├── german_numbers_tts.apkg         # Anki deck file (auto-generated)
+├── requirements.txt                # Python dependencies
+└── README.md
+
+📄 License
+
+This project is MIT-licensed. You're free to modify and distribute it.
+
+Built with ❤️ by JojoBaPb — inspired by the Fluent Forever method.
